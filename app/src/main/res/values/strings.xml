@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">PayBack</string>
+    <string name="picture_description">Задний_фон</string>
+    <string name="textJob">Работа</string>
+    <string name="textBus">Автобус</string>
+    <string name="textSubway">Метро</string>
+    <string name="button">Добавить</string>
+    <string name="probel">-----------------------</string>
+    <string name="check">Проверка</string>
+    <string name="save">Сохранить</string>
+
 </resources>
