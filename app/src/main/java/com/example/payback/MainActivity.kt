@@ -24,10 +24,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         bindingClass = ActivityMainBinding.inflate(layoutInflater)
         setContentView(bindingClass.root)
+
         pref = getSharedPreferences("PAYBACK", Context.MODE_PRIVATE)
         memory = pref?.getInt("result", 0)!!
-
         bindingClass.textResult.text = "$memory"
+
         payBack()
     }
 
